@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bus_routes[
+        <!ELEMENT bus_route (route*)>
+        <!ELEMENT route (station*)>
+        <!ELEMENT station (#PCDATA)>
+        <!ATTLIST bus_route 代号 CDATA #REQUIRED>
+        <!ATTLIST route name CDATA #REQUIRED>
+        <!ATTLIST route start_time CDATA #REQUIRED>
+        <!ATTLIST route terminal_time CDATA #REQUIRED>
+        ]>

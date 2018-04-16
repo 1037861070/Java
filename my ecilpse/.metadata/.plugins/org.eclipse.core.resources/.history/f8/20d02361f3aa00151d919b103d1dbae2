@@ -1,0 +1,83 @@
+package kui;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class oprator_login extends JFrame {
+
+	
+	private JPanel contentPane;
+	private	  JTextField textField;
+	
+	
+	public oprator_login() {
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("1.\u4E0A\u4F20\u6587\u4EF6\uFF1A");
+		lblNewLabel.setFont(new Font("¿¬Ìå", Font.PLAIN, 15));
+		lblNewLabel.setBounds(10, 0, 424, 31);
+		contentPane.add(lblNewLabel);
+		
+		JLabel label = new JLabel("2.\u4E0B\u8F7D\u6587\u4EF6\uFF1A");
+		label.setFont(new Font("¿¬Ìå", Font.PLAIN, 15));
+		label.setBounds(10, 29, 424, 31);
+		contentPane.add(label);
+		
+		JLabel label_1 = new JLabel("3.\u663E\u793A\u6587\u4EF6\u5217\u8868\uFF1A");
+		label_1.setFont(new Font("¿¬Ìå", Font.PLAIN, 15));
+		label_1.setBounds(10, 58, 424, 31);
+		contentPane.add(label_1);
+		
+		JLabel label_2 = new JLabel("4.\u9000\u51FA\uFF1A");
+		label_2.setFont(new Font("¿¬Ìå", Font.PLAIN, 15));
+		label_2.setBounds(10, 86, 424, 31);
+		contentPane.add(label_2);
+		
+		textField = new JTextField();
+		textField.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+			}
+		});
+		textField.setBounds(98, 125, 66, 21);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JLabel label_3 = new JLabel("\u8BF7\u8F93\u5165\u9009\u9879\uFF1A");
+		label_3.setFont(new Font("¿¬Ìå", Font.PLAIN, 15));
+		label_3.setBounds(10, 120, 424, 31);
+		contentPane.add(label_3);
+		
+		JButton btnNewButton = new JButton("\u786E\u5B9A");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			String a=textField.getText();	
+			}
+		});
+		btnNewButton.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 12));
+		btnNewButton.setBounds(174, 125, 57, 21);
+		contentPane.add(btnNewButton);
+	}
+	
+	public static void runoprator_login(){
+		oprator_login ope_login=new oprator_login();
+		ope_login.setVisible(true);
+	}
+	
+}	
+

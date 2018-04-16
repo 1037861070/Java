@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bus_routes 代号="武理站-武昌站">
+    <route name="59路" start_time="05:45" end_time="21:00">
+        <station>丁字桥</station>
+        <station>雅安街</station>
+        <station>瑞安街</station>
+        <station>长虹桥</station>
+        <station>武昌站</station>
+    </route>
+    <route name="58路" start_time="06:00" end_time="21:00">
+        <station>丁字桥</station>
+        <station>雅安街</station>
+        <station>瑞安街</station>
+        <station>长虹桥</station>
+        <station>武昌站</station>
+    </route>
+    <route name="320路" start_time="05:45" end_time="21:00">
+        <station>丁字桥</station>
+        <station>平安路</station>
+        <station>雅安街南段</station>
+        <station>井岗八村</station>
+        <station>武昌站东广场</station>
+    </route>
+    <route name="908路" start_time="05:30" end_time="21:00">
+        <station>文治街</station>
+        <station>北港春苑</station>
+        <station>静安路</station>
+        <station>井岗村</station>
+        <station>起义门</station>
+        <station>千家街</station>
+        <station>武昌站</station>
+    </route>
+    <route name="571路" start_time="07:00" end_time="21:00">
+        <station>文馨街</station>
+        <station>千家街</station>
+        <station>瑞安街</station>
+        <station>平安路</station>
+        <station>中央花园</station>
+        <station>栅栏口</station>
+        <station>武昌站</station>
+    </route>
+</bus_routes>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+
+<!DOCTYPE 公交线路[
+  <!ELEMENT 公交线路(线路*)>
+  <!ELEMENT 线路(站点*)>
+  <!ELEMENT 站点 (#PCDATA)>
+  <!ATTLIST 公交线路 代号 CDATA #REQUIRED>
+  <!ATTLIST 线路 公交车 CDATA #REQUIRED>
+  <!ATTLIST 线路 开始时间 CDATA #REQUIRED>
+  <!ATTLIST 线路 结束时间 CDATA #REQUIRED>
+]>

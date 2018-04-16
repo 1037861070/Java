@@ -1,0 +1,25 @@
+package kui;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.*;
+public class kui {
+
+	public static void Login(String name,String password) throws IllegalStateException, IOException, SQLException{
+	User a=DataProcessing.searchUser(name, password);
+	if (a==null)
+		System.out.println("用户名口令错误");
+	else
+	a.showMenu();
+	}
+public static void main(String[] args) throws IllegalStateException, SQLException, IOException {
+
+/*Scanner scanner=new Scanner(System.in);
+System.out.println("请输入姓名与密码：");
+ System.out.println("姓名：");
+String name=scanner.next();
+System.out.println("密码：");
+String password=scanner.next();
+User a=DataProcessing.searchUser(name, password);
+a.showMenu();*/
+}
+}

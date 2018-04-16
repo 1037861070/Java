@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="6" timestamp="1474366190862" analysisTimestamp="1474366188577" release="">
+  <Project projectName="&#36719;&#20214;&#24037;&#31243;&#23454;&#39564;">
+    <Jar>E:\eclipse\my ecilpse\&#36719;&#20214;&#24037;&#31243;&#23454;&#39564;\bin\&#31532;&#19977;&#27425;&#23454;&#39564;</Jar>
+    <AuxClasspathEntry>E:\eclipse\my ecilpse\&#36719;&#20214;&#24037;&#31243;&#23454;&#39564;\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\eclipse\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\eclipse\eclipse-jee-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_60\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>E:\eclipse\my ecilpse\&#36719;&#20214;&#24037;&#31243;&#23454;&#39564;\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Method classname="lifeGAME.WorldMap" name="changeCellStatus" signature="()V" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" start="110" end="133" startBytecode="0" endBytecode="270" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Method>
+    <SourceLine classname="lifeGAME.WorldMap" start="113" end="127" startBytecode="16" endBytecode="109" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    <SourceLine classname="lifeGAME.WorldMap" start="113" end="127" startBytecode="16" endBytecode="109" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Field classname="lifeGAME.WorldMap" name="DELAY_TIME" signature="I" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Field>
+    <SourceLine classname="lifeGAME.WorldMap" start="80" end="80" startBytecode="4320" endBytecode="4320" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Field classname="lifeGAME.WorldMap" name="WORLD_MAP_ALIVE" signature="C" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Field>
+    <SourceLine classname="lifeGAME.WorldMap" start="25" end="25" startBytecode="25" endBytecode="25" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Field classname="lifeGAME.WorldMap" name="WORLD_MAP_NONE" signature="C" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Field>
+    <SourceLine classname="lifeGAME.WorldMap" start="23" end="23" startBytecode="19" endBytecode="19" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Field classname="lifeGAME.WorldMap" name="height" signature="I" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Field>
+    <SourceLine classname="lifeGAME.WorldMap" start="21" end="21" startBytecode="13" endBytecode="13" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="3">
+    <Class classname="lifeGAME.WorldMap">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Class>
+    <Field classname="lifeGAME.WorldMap" name="width" signature="I" isStatic="false">
+      <SourceLine classname="lifeGAME.WorldMap" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+    </Field>
+    <SourceLine classname="lifeGAME.WorldMap" start="19" end="19" startBytecode="7" endBytecode="7" sourcefile="WorldMap.java" sourcepath="lifeGAME/WorldMap.java"/>
+  </BugInstance>
+  <BugInstance type="SC_START_IN_CTOR" priority="2" rank="14" abbrev="SC" category="MT_CORRECTNESS" first="1" last="5" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" sourcefile="LifeGame.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/LifeGame.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" name="&lt;init&gt;" signature="(II)V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" start="14" end="20" startBytecode="0" endBytecode="134" sourcefile="LifeGame.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/LifeGame.java"/>
+    </Method>
+    <Method classname="java.lang.Thread" name="start" signature="()V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Thread"/>
+    </Method>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" start="18" end="18" startBytecode="30" endBytecode="30" sourcefile="LifeGame.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/LifeGame.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" start="18" end="18" startBytecode="30" endBytecode="30" sourcefile="LifeGame.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/LifeGame.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$HelpActionListener">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$HelpActionListener" start="210" end="217" sourcefile="LifeGame.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/LifeGame.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setRand" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="259" end="269" startBytecode="0" endBytecode="227" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="262" end="262" startBytecode="34" endBytecode="34" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="262" end="262" startBytecode="34" endBytecode="34" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_INTEGER_MULTIPLY_CAST_TO_LONG" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="1">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="sleep" signature="(I)V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="386" end="391" startBytecode="0" endBytecode="113" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="386" end="386" startBytecode="6" endBytecode="6" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="386" end="386" startBytecode="6" endBytecode="6" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="currentGeneration" signature="[[L&#31532;&#19977;&#27425;&#23454;&#39564;/World$CellStatus;" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <Int value="92" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="101" end="101" startBytecode="19" endBytecode="19" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="292" end="292" startBytecode="67" endBytecode="67" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="302" end="302" startBytecode="127" endBytecode="127" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="316" end="316" startBytecode="16" endBytecode="16" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="321" end="321" startBytecode="48" endBytecode="48" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="326" end="326" startBytecode="80" endBytecode="80" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="331" end="331" startBytecode="112" endBytecode="112" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="336" end="336" startBytecode="144" endBytecode="144" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="341" end="341" startBytecode="176" endBytecode="176" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="346" end="346" startBytecode="208" endBytecode="208" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="351" end="351" startBytecode="240" endBytecode="240" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="362" end="362" startBytecode="290" endBytecode="290" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="76" end="76" startBytecode="86" endBytecode="86" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="77" end="77" startBytecode="95" endBytecode="95" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setArrow" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="123" end="133" startBytecode="0" endBytecode="485" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="arrow" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="124" end="124" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="124" end="124" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setDeng" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="174" end="179" startBytecode="0" endBytecode="145" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="deng" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="175" end="175" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="175" end="175" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setEr" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="197" end="212" startBytecode="0" endBytecode="723" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="er" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="198" end="198" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="198" end="198" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setFeng" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="157" end="162" startBytecode="0" endBytecode="145" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="feng" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="158" end="158" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="158" end="158" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setHua" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="234" end="239" startBytecode="0" endBytecode="135" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="hua" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="235" end="235" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="235" end="235" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setHua_fa" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="243" end="255" startBytecode="0" endBytecode="473" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="hua_fa" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="244" end="244" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="244" end="244" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setRand" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="259" end="269" startBytecode="0" endBytecode="224" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="rand" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="260" end="260" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="260" end="260" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setShui" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="225" end="230" startBytecode="0" endBytecode="175" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="shui" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="226" end="226" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="226" end="226" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setSquare" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="137" end="145" startBytecode="0" endBytecode="347" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="square" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="138" end="138" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="138" end="138" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setWan" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="216" end="221" startBytecode="0" endBytecode="155" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="wan" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="217" end="217" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="217" end="217" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setYi" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="183" end="193" startBytecode="0" endBytecode="325" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="yi" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="184" end="184" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="184" end="184" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setZha" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="166" end="170" startBytecode="0" endBytecode="111" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="zha" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="167" end="167" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="167" end="167" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1" last="3" removedByChange="true">
+    <Class classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Class>
+    <Method classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="setZhuan" signature="()V" isStatic="false">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="149" end="153" startBytecode="0" endBytecode="121" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Method>
+    <Field classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" name="zhuan" signature="[[I" isStatic="true">
+      <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    </Field>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="150" end="150" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+    <SourceLine classname="&#31532;&#19977;&#27425;&#23454;&#39564;.World" start="150" end="150" startBytecode="13" endBytecode="13" sourcefile="World.java" sourcepath="&#31532;&#19977;&#27425;&#23454;&#39564;/World.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 20 Sep 2016 18:09:26 +0800" total_classes="20" referenced_classes="343" total_bugs="10" total_size="454" num_packages="2" java_version="1.8.0_60" vm_version="25.60-b23" cpu_seconds="6.58" clock_seconds="2.29" peak_mbytes="688.32" alloc_mbytes="455.50" gc_seconds="0.09" priority_2="10">
+    <PackageStats package="&#31532;&#19977;&#27425;&#23454;&#39564;" total_bugs="4" total_types="20" total_size="454" priority_2="4">
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame" sourceFile="LifeGame.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$ArrowActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$DengActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$ErActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$FengActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$HelpActionListener" sourceFile="LifeGame.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$HighActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$HuaActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$Hua_faActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$LowActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$MidActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$RandActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$ShuiActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$SquareActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$WanActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$YiActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$ZhaActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.LifeGame$ZhuanActionListener" sourceFile="LifeGame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.World" sourceFile="World.java" interface="false" size="253" bugs="3" priority_2="3"/>
+      <ClassStats class="&#31532;&#19977;&#27425;&#23454;&#39564;.World$CellStatus" sourceFile="World.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="399" invocations="1569" avgMicrosecondsPerInvocation="254" maxMicrosecondsPerInvocation="21924" standardDeviationMircosecondsPerInvocation="837"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="213" invocations="343" avgMicrosecondsPerInvocation="622" maxMicrosecondsPerInvocation="11340" standardDeviationMircosecondsPerInvocation="1240"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="208" invocations="343" avgMicrosecondsPerInvocation="607" maxMicrosecondsPerInvocation="12494" standardDeviationMircosecondsPerInvocation="1280"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="192" invocations="2" avgMicrosecondsPerInvocation="96416" maxMicrosecondsPerInvocation="98680" standardDeviationMircosecondsPerInvocation="2243"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="171" invocations="1572" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="1304" standardDeviationMircosecondsPerInvocation="74"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="136" invocations="791" avgMicrosecondsPerInvocation="172" maxMicrosecondsPerInvocation="1525" standardDeviationMircosecondsPerInvocation="199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="65" invocations="400" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="29202" standardDeviationMircosecondsPerInvocation="1459"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="55" invocations="343" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="2402" standardDeviationMircosecondsPerInvocation="282"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="51" invocations="62" avgMicrosecondsPerInvocation="829" maxMicrosecondsPerInvocation="28053" standardDeviationMircosecondsPerInvocation="3518"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="43" invocations="62" avgMicrosecondsPerInvocation="700" maxMicrosecondsPerInvocation="19468" standardDeviationMircosecondsPerInvocation="2476"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="38" invocations="62" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="8955" standardDeviationMircosecondsPerInvocation="1290"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="38" invocations="343" avgMicrosecondsPerInvocation="111" maxMicrosecondsPerInvocation="9000" standardDeviationMircosecondsPerInvocation="645"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="36" invocations="343" avgMicrosecondsPerInvocation="105" maxMicrosecondsPerInvocation="1293" standardDeviationMircosecondsPerInvocation="174"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="35" invocations="343" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="1480" standardDeviationMircosecondsPerInvocation="190"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="35" invocations="343" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="1353" standardDeviationMircosecondsPerInvocation="146"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1474364956516" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1474364956520" release="" codeSize="453" numClasses="20"/>
+    <AppVersion sequence="2" timestamp="1474365054203" release="" codeSize="453" numClasses="20"/>
+    <AppVersion sequence="3" timestamp="1474365224270" release="" codeSize="185" numClasses="4"/>
+    <AppVersion sequence="4" timestamp="1474365345382" release="" codeSize="265" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1474365840944" release="" codeSize="189" numClasses="18"/>
+  </History>
+</BugCollection>

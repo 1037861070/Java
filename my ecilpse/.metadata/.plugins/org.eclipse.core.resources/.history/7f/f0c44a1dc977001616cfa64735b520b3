@@ -1,0 +1,41 @@
+package lifeGAME;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+import org.junit.Ignore;
+import org.junit.runner.RunWith;
+
+public class WorldMapTest {
+
+	WorldMap map = new WorldMap(); 
+ 
+	@Before
+	public void setUp() throws Exception {
+		
+	}
+
+	@Test
+	public void testChangeCellStatus() {
+		
+	}
+
+	@Test
+	public void testNeighborsCount() {
+	map.startAnimation();
+	assertEquals(2,map.neighborsCount(26, 24));	
+	}
+
+	@Test
+	public void testStartAnimation() {
+		
+	}
+
+	@Test
+	public void testCopyWorldMap() {
+		
+	}
+
+}

@@ -1,0 +1,113 @@
+package kui;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.Enumeration;
+import java.util.Scanner;
+
+
+public class Operator extends User {
+	 
+	
+	Operator(String name,String password,String role){
+		super(name,password,role);
+	}
+	void uploadFile(String b ,String c,String d) throws IOException, IllegalStateException, SQLException {//上传函数
+	File fp1=new File(b);
+	File fp2=new File("e:\\kui\\uploadfile\\"+fp1.getName());
+	if(!(fp2.exists())){
+			fp2.createNewFile();}
+			FileReader fis=new FileReader(fp1);
+			FileWriter fos=new FileWriter(fp2);
+			char[] a=new char[1024];
+			System.out.println("开始上传文件：");
+			while(fis.read(a)!=-1){
+				fos.write(a,0,a.length);}
+			fis.close();
+			fos.close();
+			Timestamp timestamp = new Timestamp(System.currentTimeMillis()); 
+			if(DataProcessing.insertDoc(c, getName(), timestamp, d, fp2.getName())){
+				System.out.println("文件上传成功！");}
+			else 
+				System.out.println("文件已存在！");
+	}
+	public boolean downloadFile(String filename) throws IOException{
+		File fp1=new File("e:\\kui\\uploadfile\\"+filename);
+		File fp2=new File("e:\\kui\\downloadfile\\"+fp1.getName());
+		if(!(fp2.exists())){
+			fp2.createNewFile();
+		}
+		System.out.println("开始下载文件！");
+		FileReader fis=new FileReader(fp1);
+		FileWriter fos=new FileWriter(fp2);
+		char[] a=new char[1024];
+		while(fis.read(a)!=-1){
+		fos.write(a,0,a.length);	
+		}
+		fis.close();
+		fos.close();
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis()); 
+		
+			System.out.println("文件下载成功！");
+			return false;
+	
+	}//下载函数
+	public void showFileList() throws IllegalStateException, SQLException{
+		Enumeration<Doc> e  =DataProcessing.getAllDocs();
+		Doc a=new Doc();
+		while(e.hasMoreElements()){
+			a=e.nextElement();
+			System.out.println("文件ID\t\t用户名\t\t创建时间\t\t\t\t描述\t\t\t文件名");
+			System.out.println(a.getID()+"\t\t"+a.getCreator()+"\t\t"+a.getTimestamp()+"\t\t"+a.getDescription()
+					+"\t\t\t"+a.getFilename());
+		}
+	}
+	public void showMenu() throws IllegalStateException, SQLException  {
+		oprator_login.runoprator_login();
+		int i=0;
+		do{
+			
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("1.上传文件：");
+		System.out.println("2.下载文件：");
+		System.out.println("3.显示文件列表：");
+		System.out.println("4.退出！");
+		System.out.println("请输入选项：");
+		 int a=scanner.nextInt();
+		   switch(a){
+		   
+		case 1:System.out.println("请输入文件路径与文件名:");
+		       String b=scanner.next();
+		       System.out.println("请输入id：");
+		       String c=scanner.next();
+		       System.out.println("请输入描述:");
+		       String d=scanner.next();
+		       try {
+				uploadFile(b,c,d);
+			} catch (IOException e1) {
+				// TODO 自动生成的 catch 块
+				e1.printStackTrace();
+			}
+			   break; 
+		case 2:System.out.println("请输入文件ID：");
+			   String e=scanner.next();
+			   Doc a1=DataProcessing.searchDoc(e);
+			   try {
+				downloadFile(a1.getFilename());
+			} catch (IOException e1) {
+				// TODO 自动生成的 catch 块
+				e1.printStackTrace();
+			}break;
+	    case 3:showFileList();break;
+	    case 4:i=4;
+			   System.out.println("退出菜单！");break;
+		   }
+}while(i!=4);
+}}

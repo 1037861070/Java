@@ -1,0 +1,957 @@
+src/manage/Administer.java:3:	headerCommentRequirement Required
+src/manage/Administer.java:4:	Document empty constructor
+src/manage/Administer.java:4:	It is a good practice to call super() in a constructor
+src/manage/Administer.java:6:	It is a good practice to call super() in a constructor
+src/manage/Administer.java:6:	Parameter 'name' is not assigned and could be declared final
+src/manage/Administer.java:6:	Parameter 'password' is not assigned and could be declared final
+src/manage/Administer.java:6:	Parameter 'role' is not assigned and could be declared final
+src/manage/Administer.java:6:	publicMethodCommentRequirement Required
+src/manage/Classes.java:3:	headerCommentRequirement Required
+src/manage/Classes.java:4:	fieldCommentRequirement Required
+src/manage/Classes.java:5:	fieldCommentRequirement Required
+src/manage/Classes.java:6:	fieldCommentRequirement Required
+src/manage/Classes.java:7:	fieldCommentRequirement Required
+src/manage/Classes.java:8:	fieldCommentRequirement Required
+src/manage/Classes.java:10:	Document empty constructor
+src/manage/Classes.java:10:	publicMethodCommentRequirement Required
+src/manage/Classes.java:12:	Parameter 'classID' is not assigned and could be declared final
+src/manage/Classes.java:12:	Parameter 'className' is not assigned and could be declared final
+src/manage/Classes.java:12:	Parameter 'grade' is not assigned and could be declared final
+src/manage/Classes.java:12:	Parameter 'maxNum' is not assigned and could be declared final
+src/manage/Classes.java:12:	Parameter 'sumNum' is not assigned and could be declared final
+src/manage/Classes.java:12:	publicMethodCommentRequirement Required
+src/manage/Classes.java:20:	Parameter 'className' is not assigned and could be declared final
+src/manage/Classes.java:20:	Parameter 'grade' is not assigned and could be declared final
+src/manage/Classes.java:20:	Parameter 'sumNum' is not assigned and could be declared final
+src/manage/Classes.java:20:	publicMethodCommentRequirement Required
+src/manage/Classes.java:26:	publicMethodCommentRequirement Required
+src/manage/Classes.java:29:	Parameter 'classID' is not assigned and could be declared final
+src/manage/Classes.java:29:	publicMethodCommentRequirement Required
+src/manage/Classes.java:32:	publicMethodCommentRequirement Required
+src/manage/Classes.java:35:	Parameter 'className' is not assigned and could be declared final
+src/manage/Classes.java:35:	publicMethodCommentRequirement Required
+src/manage/Classes.java:38:	publicMethodCommentRequirement Required
+src/manage/Classes.java:41:	Parameter 'maxNum' is not assigned and could be declared final
+src/manage/Classes.java:41:	publicMethodCommentRequirement Required
+src/manage/Classes.java:44:	publicMethodCommentRequirement Required
+src/manage/Classes.java:47:	Parameter 'sumNum' is not assigned and could be declared final
+src/manage/Classes.java:47:	publicMethodCommentRequirement Required
+src/manage/Classes.java:50:	publicMethodCommentRequirement Required
+src/manage/Classes.java:53:	Parameter 'grade' is not assigned and could be declared final
+src/manage/Classes.java:53:	publicMethodCommentRequirement Required
+src/manage/Course.java:3:	headerCommentRequirement Required
+src/manage/Course.java:4:	fieldCommentRequirement Required
+src/manage/Course.java:5:	fieldCommentRequirement Required
+src/manage/Course.java:6:	fieldCommentRequirement Required
+src/manage/Course.java:8:	Document empty constructor
+src/manage/Course.java:8:	publicMethodCommentRequirement Required
+src/manage/Course.java:10:	Parameter 'courseID' is not assigned and could be declared final
+src/manage/Course.java:10:	Parameter 'courseName' is not assigned and could be declared final
+src/manage/Course.java:10:	Parameter 'credit' is not assigned and could be declared final
+src/manage/Course.java:10:	publicMethodCommentRequirement Required
+src/manage/Course.java:16:	publicMethodCommentRequirement Required
+src/manage/Course.java:19:	Parameter 'courseID' is not assigned and could be declared final
+src/manage/Course.java:19:	publicMethodCommentRequirement Required
+src/manage/Course.java:22:	publicMethodCommentRequirement Required
+src/manage/Course.java:25:	Parameter 'courseName' is not assigned and could be declared final
+src/manage/Course.java:25:	publicMethodCommentRequirement Required
+src/manage/Course.java:28:	publicMethodCommentRequirement Required
+src/manage/Course.java:31:	Parameter 'credit' is not assigned and could be declared final
+src/manage/Course.java:31:	publicMethodCommentRequirement Required
+src/manage/Score.java:3:	headerCommentRequirement Required
+src/manage/Score.java:4:	fieldCommentRequirement Required
+src/manage/Score.java:5:	fieldCommentRequirement Required
+src/manage/Score.java:6:	It is somewhat confusing to have a field name matching the declaring class name
+src/manage/Score.java:6:	fieldCommentRequirement Required
+src/manage/Score.java:7:	fieldCommentRequirement Required
+src/manage/Score.java:8:	fieldCommentRequirement Required
+src/manage/Score.java:10:	Document empty constructor
+src/manage/Score.java:10:	publicMethodCommentRequirement Required
+src/manage/Score.java:12:	Parameter 'courseName' is not assigned and could be declared final
+src/manage/Score.java:12:	Parameter 'score' is not assigned and could be declared final
+src/manage/Score.java:12:	Parameter 'semester' is not assigned and could be declared final
+src/manage/Score.java:12:	Parameter 'studentID' is not assigned and could be declared final
+src/manage/Score.java:12:	Parameter 'year' is not assigned and could be declared final
+src/manage/Score.java:12:	publicMethodCommentRequirement Required
+src/manage/Score.java:20:	publicMethodCommentRequirement Required
+src/manage/Score.java:23:	Parameter 'studentID' is not assigned and could be declared final
+src/manage/Score.java:23:	publicMethodCommentRequirement Required
+src/manage/Score.java:27:	publicMethodCommentRequirement Required
+src/manage/Score.java:30:	Parameter 'score' is not assigned and could be declared final
+src/manage/Score.java:30:	publicMethodCommentRequirement Required
+src/manage/Score.java:34:	publicMethodCommentRequirement Required
+src/manage/Score.java:38:	Parameter 'courseName' is not assigned and could be declared final
+src/manage/Score.java:38:	publicMethodCommentRequirement Required
+src/manage/Score.java:42:	publicMethodCommentRequirement Required
+src/manage/Score.java:46:	Parameter 'semester' is not assigned and could be declared final
+src/manage/Score.java:46:	publicMethodCommentRequirement Required
+src/manage/Score.java:50:	publicMethodCommentRequirement Required
+src/manage/Score.java:54:	Parameter 'year' is not assigned and could be declared final
+src/manage/Score.java:54:	publicMethodCommentRequirement Required
+src/manage/Student.java:3:	headerCommentRequirement Required
+src/manage/Student.java:4:	fieldCommentRequirement Required
+src/manage/Student.java:5:	fieldCommentRequirement Required
+src/manage/Student.java:6:	fieldCommentRequirement Required
+src/manage/Student.java:7:	fieldCommentRequirement Required
+src/manage/Student.java:8:	fieldCommentRequirement Required
+src/manage/Student.java:9:	fieldCommentRequirement Required
+src/manage/Student.java:10:	fieldCommentRequirement Required
+src/manage/Student.java:11:	fieldCommentRequirement Required
+src/manage/Student.java:12:	fieldCommentRequirement Required
+src/manage/Student.java:14:	Document empty constructor
+src/manage/Student.java:14:	publicMethodCommentRequirement Required
+src/manage/Student.java:16:	Parameter 'password' is not assigned and could be declared final
+src/manage/Student.java:16:	Parameter 'studentID' is not assigned and could be declared final
+src/manage/Student.java:16:	publicMethodCommentRequirement Required
+src/manage/Student.java:21:	Parameter 'className' is not assigned and could be declared final
+src/manage/Student.java:21:	Parameter 'sex' is not assigned and could be declared final
+src/manage/Student.java:21:	Parameter 'studentID' is not assigned and could be declared final
+src/manage/Student.java:21:	Parameter 'studentName' is not assigned and could be declared final
+src/manage/Student.java:21:	publicMethodCommentRequirement Required
+src/manage/Student.java:22:	Parameter 'birth' is not assigned and could be declared final
+src/manage/Student.java:22:	Parameter 'entrance' is not assigned and could be declared final
+src/manage/Student.java:22:	Parameter 'nation' is not assigned and could be declared final
+src/manage/Student.java:22:	Parameter 'password' is not assigned and could be declared final
+src/manage/Student.java:22:	Parameter 'specialty' is not assigned and could be declared final
+src/manage/Student.java:34:	publicMethodCommentRequirement Required
+src/manage/Student.java:38:	Parameter 'birth' is not assigned and could be declared final
+src/manage/Student.java:38:	publicMethodCommentRequirement Required
+src/manage/Student.java:42:	publicMethodCommentRequirement Required
+src/manage/Student.java:46:	Parameter 'entrance' is not assigned and could be declared final
+src/manage/Student.java:46:	publicMethodCommentRequirement Required
+src/manage/Student.java:50:	publicMethodCommentRequirement Required
+src/manage/Student.java:53:	Parameter 'studentID' is not assigned and could be declared final
+src/manage/Student.java:53:	publicMethodCommentRequirement Required
+src/manage/Student.java:56:	publicMethodCommentRequirement Required
+src/manage/Student.java:59:	Parameter 'studentName' is not assigned and could be declared final
+src/manage/Student.java:59:	publicMethodCommentRequirement Required
+src/manage/Student.java:63:	publicMethodCommentRequirement Required
+src/manage/Student.java:67:	Parameter 'className' is not assigned and could be declared final
+src/manage/Student.java:67:	publicMethodCommentRequirement Required
+src/manage/Student.java:71:	publicMethodCommentRequirement Required
+src/manage/Student.java:75:	Parameter 'sex' is not assigned and could be declared final
+src/manage/Student.java:75:	publicMethodCommentRequirement Required
+src/manage/Student.java:79:	publicMethodCommentRequirement Required
+src/manage/Student.java:83:	Parameter 'nation' is not assigned and could be declared final
+src/manage/Student.java:83:	publicMethodCommentRequirement Required
+src/manage/Student.java:87:	publicMethodCommentRequirement Required
+src/manage/Student.java:90:	Parameter 'specialty' is not assigned and could be declared final
+src/manage/Student.java:90:	publicMethodCommentRequirement Required
+src/manage/Student.java:94:	publicMethodCommentRequirement Required
+src/manage/Student.java:98:	Parameter 'password' is not assigned and could be declared final
+src/manage/Student.java:98:	publicMethodCommentRequirement Required
+src/manage/User.java:3:	Avoid short class names like User
+src/manage/User.java:3:	headerCommentRequirement Required
+src/manage/User.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/manage/User.java:4:	fieldCommentRequirement Required
+src/manage/User.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/manage/User.java:5:	fieldCommentRequirement Required
+src/manage/User.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/manage/User.java:6:	fieldCommentRequirement Required
+src/manage/User.java:8:	Document empty constructor
+src/manage/User.java:10:	Parameter 'name' is not assigned and could be declared final
+src/manage/User.java:10:	Parameter 'password' is not assigned and could be declared final
+src/manage/User.java:10:	Parameter 'role' is not assigned and could be declared final
+src/manage/User.java:10:	publicMethodCommentRequirement Required
+src/manage/User.java:16:	publicMethodCommentRequirement Required
+src/manage/User.java:20:	Parameter 'name' is not assigned and could be declared final
+src/manage/User.java:20:	publicMethodCommentRequirement Required
+src/manage/User.java:24:	publicMethodCommentRequirement Required
+src/manage/User.java:28:	Parameter 'password' is not assigned and could be declared final
+src/manage/User.java:28:	publicMethodCommentRequirement Required
+src/manage/User.java:32:	publicMethodCommentRequirement Required
+src/manage/User.java:36:	Parameter 'role' is not assigned and could be declared final
+src/manage/User.java:36:	publicMethodCommentRequirement Required
+src/manage/User.java:40:	Document empty method body
+src/manage/User.java:40:	publicMethodCommentRequirement Required
+src/severlet/AddAdmi.java:19:	fieldCommentRequirement Required
+src/severlet/AddAdmi.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/AddAdmi.java:29:	Comment is too large: Line too long
+src/severlet/AddAdmi.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddAdmi.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddAdmi.java:35:	Local variable 'name' could be declared final
+src/severlet/AddAdmi.java:36:	Local variable 'password' could be declared final
+src/severlet/AddAdmi.java:37:	Local variable 'out' could be declared final
+src/severlet/AddAdmi.java:40:	Local variable 'flag' could be declared final
+src/severlet/AddAdmi.java:55:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddAdmi.java:60:	Comment is too large: Line too long
+src/severlet/AddAdmi.java:62:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddAdmi.java:62:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddClass.java:19:	fieldCommentRequirement Required
+src/severlet/AddClass.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/AddClass.java:29:	Comment is too large: Line too long
+src/severlet/AddClass.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddClass.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddClass.java:35:	Local variable 'className' could be declared final
+src/severlet/AddClass.java:36:	Local variable 'grade1' could be declared final
+src/severlet/AddClass.java:37:	Local variable 'maxNum1' could be declared final
+src/severlet/AddClass.java:38:	Local variable 'grade' could be declared final
+src/severlet/AddClass.java:39:	Local variable 'maxNum' could be declared final
+src/severlet/AddClass.java:40:	Local variable 'out' could be declared final
+src/severlet/AddClass.java:43:	Local variable 'flag' could be declared final
+src/severlet/AddClass.java:55:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddClass.java:60:	Comment is too large: Line too long
+src/severlet/AddClass.java:62:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddClass.java:62:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddCourse.java:19:	fieldCommentRequirement Required
+src/severlet/AddCourse.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/AddCourse.java:29:	Comment is too large: Line too long
+src/severlet/AddCourse.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddCourse.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddCourse.java:35:	Local variable 'courseName' could be declared final
+src/severlet/AddCourse.java:36:	Local variable 'credit1' could be declared final
+src/severlet/AddCourse.java:37:	Local variable 'credit' could be declared final
+src/severlet/AddCourse.java:38:	Local variable 'out' could be declared final
+src/severlet/AddCourse.java:41:	Local variable 'flag' could be declared final
+src/severlet/AddCourse.java:53:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddCourse.java:58:	Comment is too large: Line too long
+src/severlet/AddCourse.java:60:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddCourse.java:60:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddScore.java:19:	fieldCommentRequirement Required
+src/severlet/AddScore.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/AddScore.java:29:	Comment is too large: Line too long
+src/severlet/AddScore.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddScore.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddScore.java:35:	Local variable 'studentID' could be declared final
+src/severlet/AddScore.java:36:	Local variable 'courseName' could be declared final
+src/severlet/AddScore.java:37:	Local variable 'year' could be declared final
+src/severlet/AddScore.java:38:	Local variable 'semester1' could be declared final
+src/severlet/AddScore.java:39:	Local variable 'score1' could be declared final
+src/severlet/AddScore.java:40:	Local variable 'semester' could be declared final
+src/severlet/AddScore.java:41:	Local variable 'score' could be declared final
+src/severlet/AddScore.java:42:	Local variable 'out' could be declared final
+src/severlet/AddScore.java:45:	Local variable 'flag' could be declared final
+src/severlet/AddScore.java:57:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddScore.java:62:	Comment is too large: Line too long
+src/severlet/AddScore.java:64:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddScore.java:64:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddStudent.java:19:	fieldCommentRequirement Required
+src/severlet/AddStudent.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/AddStudent.java:29:	Comment is too large: Line too long
+src/severlet/AddStudent.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddStudent.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/AddStudent.java:35:	Local variable 'studentID' could be declared final
+src/severlet/AddStudent.java:36:	Local variable 'studentName' could be declared final
+src/severlet/AddStudent.java:37:	Local variable 'xing' could be declared final
+src/severlet/AddStudent.java:38:	Found 'DD'-anomaly for variable 'sex' (lines '38'-'40').
+src/severlet/AddStudent.java:39:	Avoid using if statements without curly braces
+src/severlet/AddStudent.java:39:	Position literals first in String comparisons
+src/severlet/AddStudent.java:41:	Local variable 'className' could be declared final
+src/severlet/AddStudent.java:42:	Local variable 'birth' could be declared final
+src/severlet/AddStudent.java:43:	Local variable 'nation' could be declared final
+src/severlet/AddStudent.java:44:	Local variable 'entrance' could be declared final
+src/severlet/AddStudent.java:45:	Local variable 'specialty' could be declared final
+src/severlet/AddStudent.java:46:	Local variable 'out' could be declared final
+src/severlet/AddStudent.java:49:	Local variable 'flag' could be declared final
+src/severlet/AddStudent.java:61:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddStudent.java:64:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/AddStudent.java:69:	Comment is too large: Line too long
+src/severlet/AddStudent.java:71:	Parameter 'request' is not assigned and could be declared final
+src/severlet/AddStudent.java:71:	Parameter 'response' is not assigned and could be declared final
+src/severlet/Database.java:12:	Each class should declare at least one constructor
+src/severlet/Database.java:12:	This class has too many methods, consider refactoring it.
+src/severlet/Database.java:12:	headerCommentRequirement Required
+src/severlet/Database.java:13:	To avoid mistakes add a comment at the beginning of the strCon field if you want a default access modifier
+src/severlet/Database.java:13:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:13:	fieldCommentRequirement Required
+src/severlet/Database.java:14:	To avoid mistakes add a comment at the beginning of the strUser field if you want a default access modifier
+src/severlet/Database.java:14:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:14:	fieldCommentRequirement Required
+src/severlet/Database.java:15:	To avoid mistakes add a comment at the beginning of the strPwd field if you want a default access modifier
+src/severlet/Database.java:15:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:15:	fieldCommentRequirement Required
+src/severlet/Database.java:16:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:16:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:16:	To avoid mistakes add a comment at the beginning of the classes field if you want a default access modifier
+src/severlet/Database.java:16:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:16:	fieldCommentRequirement Required
+src/severlet/Database.java:17:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:17:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:17:	To avoid mistakes add a comment at the beginning of the classStudent field if you want a default access modifier
+src/severlet/Database.java:17:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:17:	fieldCommentRequirement Required
+src/severlet/Database.java:18:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:18:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:18:	To avoid mistakes add a comment at the beginning of the allStudent field if you want a default access modifier
+src/severlet/Database.java:18:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:18:	fieldCommentRequirement Required
+src/severlet/Database.java:19:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:19:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:19:	To avoid mistakes add a comment at the beginning of the course field if you want a default access modifier
+src/severlet/Database.java:19:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:19:	fieldCommentRequirement Required
+src/severlet/Database.java:20:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:20:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:20:	To avoid mistakes add a comment at the beginning of the studentScore field if you want a default access modifier
+src/severlet/Database.java:20:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:20:	fieldCommentRequirement Required
+src/severlet/Database.java:21:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:21:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:21:	To avoid mistakes add a comment at the beginning of the courseScore field if you want a default access modifier
+src/severlet/Database.java:21:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:21:	fieldCommentRequirement Required
+src/severlet/Database.java:22:	Avoid using implementation types like 'Hashtable'; use the interface instead
+src/severlet/Database.java:22:	Consider replacing this Hashtable with the newer java.util.Map
+src/severlet/Database.java:22:	To avoid mistakes add a comment at the beginning of the allScore field if you want a default access modifier
+src/severlet/Database.java:22:	Use explicit scoping instead of the default package private level
+src/severlet/Database.java:22:	fieldCommentRequirement Required
+src/severlet/Database.java:25:	Parameter 'name' is not assigned and could be declared final
+src/severlet/Database.java:25:	Parameter 'password' is not assigned and could be declared final
+src/severlet/Database.java:25:	publicMethodCommentRequirement Required
+src/severlet/Database.java:26:	Found 'DD'-anomaly for variable 'user' (lines '26'-'41').
+src/severlet/Database.java:26:	Found 'DU'-anomaly for variable 'user' (lines '26'-'49').
+src/severlet/Database.java:28:	The String literal "com.mysql.jdbc.Driver" appears 21 times in this file; the first occurrence is on line 28
+src/severlet/Database.java:30:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:32:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:34:	Avoid variables with short names like ps
+src/severlet/Database.java:37:	Avoid variables with short names like rs
+src/severlet/Database.java:37:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:37:	Local variable 'rs' could be declared final
+src/severlet/Database.java:40:	The String literal "password" appears 5 times in this file; the first occurrence is on line 40
+src/severlet/Database.java:40:	These nested if statements could be combined
+src/severlet/Database.java:42:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:51:	Parameter 'name' is not assigned and could be declared final
+src/severlet/Database.java:51:	Parameter 'newpassword' is not assigned and could be declared final
+src/severlet/Database.java:51:	Parameter 'password' is not assigned and could be declared final
+src/severlet/Database.java:51:	publicMethodCommentRequirement Required
+src/severlet/Database.java:55:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:57:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:59:	Avoid variables with short names like ps
+src/severlet/Database.java:59:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:61:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:62:	Avoid variables with short names like rs
+src/severlet/Database.java:62:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:62:	Local variable 'rs' could be declared final
+src/severlet/Database.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:65:	These nested if statements could be combined
+src/severlet/Database.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:69:	Local variable 'count' could be declared final
+src/severlet/Database.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:71:	Avoid using if statements without curly braces
+src/severlet/Database.java:71:	Deeply nested if..then statements are hard to read
+src/severlet/Database.java:72:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:82:	Parameter 'name' is not assigned and could be declared final
+src/severlet/Database.java:82:	Parameter 'password' is not assigned and could be declared final
+src/severlet/Database.java:82:	publicMethodCommentRequirement Required
+src/severlet/Database.java:86:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:86:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:88:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:90:	Avoid variables with short names like ps
+src/severlet/Database.java:90:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:93:	Avoid variables with short names like rs
+src/severlet/Database.java:93:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:93:	Local variable 'rs' could be declared final
+src/severlet/Database.java:93:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:95:	Avoid using if statements without curly braces
+src/severlet/Database.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:96:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:99:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:101:	Local variable 'count' could be declared final
+src/severlet/Database.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:106:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:107:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:107:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:109:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:112:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:112:	publicMethodCommentRequirement Required
+src/severlet/Database.java:113:	Found 'DD'-anomaly for variable 'student' (lines '113'-'135').
+src/severlet/Database.java:113:	Found 'DU'-anomaly for variable 'student' (lines '113'-'142').
+src/severlet/Database.java:117:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:119:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:121:	Avoid variables with short names like ps
+src/severlet/Database.java:124:	Avoid variables with short names like rs
+src/severlet/Database.java:124:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:124:	Local variable 'rs' could be declared final
+src/severlet/Database.java:127:	Local variable 'studentName' could be declared final
+src/severlet/Database.java:127:	The String literal "student_name" appears 4 times in this file; the first occurrence is on line 127
+src/severlet/Database.java:128:	Local variable 'className' could be declared final
+src/severlet/Database.java:128:	The String literal "class_name" appears 4 times in this file; the first occurrence is on line 128
+src/severlet/Database.java:129:	Local variable 'sex' could be declared final
+src/severlet/Database.java:129:	The String literal "sex" appears 4 times in this file; the first occurrence is on line 129
+src/severlet/Database.java:130:	Local variable 'birth' could be declared final
+src/severlet/Database.java:130:	The String literal "birth" appears 4 times in this file; the first occurrence is on line 130
+src/severlet/Database.java:131:	Local variable 'nation' could be declared final
+src/severlet/Database.java:131:	The String literal "nation" appears 4 times in this file; the first occurrence is on line 131
+src/severlet/Database.java:132:	Local variable 'entrance' could be declared final
+src/severlet/Database.java:132:	The String literal "entrance_date" appears 4 times in this file; the first occurrence is on line 132
+src/severlet/Database.java:133:	Local variable 'specialty' could be declared final
+src/severlet/Database.java:133:	The String literal "specialty" appears 4 times in this file; the first occurrence is on line 133
+src/severlet/Database.java:134:	Local variable 'password' could be declared final
+src/severlet/Database.java:136:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:144:	Parameter 'password' is not assigned and could be declared final
+src/severlet/Database.java:144:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:144:	publicMethodCommentRequirement Required
+src/severlet/Database.java:145:	Found 'DD'-anomaly for variable 'student' (lines '145'-'167').
+src/severlet/Database.java:145:	Found 'DU'-anomaly for variable 'student' (lines '145'-'174').
+src/severlet/Database.java:149:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:151:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:153:	Avoid variables with short names like ps
+src/severlet/Database.java:157:	Avoid variables with short names like rs
+src/severlet/Database.java:157:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:157:	Local variable 'rs' could be declared final
+src/severlet/Database.java:160:	Local variable 'studentName' could be declared final
+src/severlet/Database.java:161:	Local variable 'className' could be declared final
+src/severlet/Database.java:162:	Local variable 'sex' could be declared final
+src/severlet/Database.java:163:	Local variable 'birth' could be declared final
+src/severlet/Database.java:164:	Local variable 'nation' could be declared final
+src/severlet/Database.java:165:	Local variable 'entrance' could be declared final
+src/severlet/Database.java:166:	Local variable 'specialty' could be declared final
+src/severlet/Database.java:168:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:176:	Parameter 'className' is not assigned and could be declared final
+src/severlet/Database.java:176:	Parameter 'sex' is not assigned and could be declared final
+src/severlet/Database.java:176:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:176:	Parameter 'studentName' is not assigned and could be declared final
+src/severlet/Database.java:176:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/severlet/Database.java:176:	publicMethodCommentRequirement Required
+src/severlet/Database.java:177:	Parameter 'birth' is not assigned and could be declared final
+src/severlet/Database.java:177:	Parameter 'entrance' is not assigned and could be declared final
+src/severlet/Database.java:177:	Parameter 'nation' is not assigned and could be declared final
+src/severlet/Database.java:177:	Parameter 'specialty' is not assigned and could be declared final
+src/severlet/Database.java:181:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:183:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:185:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Database.java:185:	Avoid variables with short names like ps
+src/severlet/Database.java:185:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:187:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:188:	Avoid variables with short names like rs
+src/severlet/Database.java:188:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:188:	Local variable 'rs' could be declared final
+src/severlet/Database.java:188:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:190:	Avoid using if statements without curly braces
+src/severlet/Database.java:190:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:191:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:192:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:193:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:194:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:195:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:196:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:200:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:201:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:202:	Local variable 'count' could be declared final
+src/severlet/Database.java:202:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:203:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:204:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:206:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:207:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:207:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:209:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:212:	Parameter 'className' is not assigned and could be declared final
+src/severlet/Database.java:212:	Parameter 'sex' is not assigned and could be declared final
+src/severlet/Database.java:212:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:212:	Parameter 'studentName' is not assigned and could be declared final
+src/severlet/Database.java:212:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/severlet/Database.java:212:	publicMethodCommentRequirement Required
+src/severlet/Database.java:213:	Parameter 'birth' is not assigned and could be declared final
+src/severlet/Database.java:213:	Parameter 'entrance' is not assigned and could be declared final
+src/severlet/Database.java:213:	Parameter 'nation' is not assigned and could be declared final
+src/severlet/Database.java:213:	Parameter 'specialty' is not assigned and could be declared final
+src/severlet/Database.java:217:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:217:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:219:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:221:	Avoid variables with short names like ps
+src/severlet/Database.java:222:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:223:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:224:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:227:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:228:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:229:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:230:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:231:	Local variable 'count' could be declared final
+src/severlet/Database.java:231:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:232:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:233:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:234:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:235:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:235:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:237:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:240:	Parameter 'newpassword' is not assigned and could be declared final
+src/severlet/Database.java:240:	Parameter 'password' is not assigned and could be declared final
+src/severlet/Database.java:240:	Parameter 'studentName' is not assigned and could be declared final
+src/severlet/Database.java:240:	publicMethodCommentRequirement Required
+src/severlet/Database.java:244:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:244:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:246:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:248:	Avoid variables with short names like ps
+src/severlet/Database.java:248:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:249:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:250:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:251:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:252:	Avoid variables with short names like rs
+src/severlet/Database.java:252:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:252:	Local variable 'rs' could be declared final
+src/severlet/Database.java:252:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:254:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:255:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:256:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:257:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:258:	Local variable 'count' could be declared final
+src/severlet/Database.java:258:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:260:	Avoid using if statements without curly braces
+src/severlet/Database.java:261:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:263:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:264:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:265:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:269:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:269:	publicMethodCommentRequirement Required
+src/severlet/Database.java:273:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:273:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:275:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:277:	Avoid variables with short names like ps
+src/severlet/Database.java:278:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:279:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:280:	Local variable 'count' could be declared final
+src/severlet/Database.java:280:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:281:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:282:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:283:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:284:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:284:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:286:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:289:	publicMethodCommentRequirement Required
+src/severlet/Database.java:291:	Found 'DD'-anomaly for variable 'student1' (lines '291'-'313').
+src/severlet/Database.java:291:	Found 'DU'-anomaly for variable 'student1' (lines '291'-'321').
+src/severlet/Database.java:295:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:295:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:297:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:299:	Avoid variables with short names like ps
+src/severlet/Database.java:301:	Avoid variables with short names like rs
+src/severlet/Database.java:301:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:301:	Local variable 'rs' could be declared final
+src/severlet/Database.java:304:	Local variable 'studentName' could be declared final
+src/severlet/Database.java:305:	Local variable 'studentID' could be declared final
+src/severlet/Database.java:305:	The String literal "student_id" appears 4 times in this file; the first occurrence is on line 305
+src/severlet/Database.java:306:	Local variable 'className' could be declared final
+src/severlet/Database.java:307:	Local variable 'sex' could be declared final
+src/severlet/Database.java:308:	Local variable 'birth' could be declared final
+src/severlet/Database.java:309:	Local variable 'nation' could be declared final
+src/severlet/Database.java:310:	Local variable 'entrance' could be declared final
+src/severlet/Database.java:311:	Local variable 'specialty' could be declared final
+src/severlet/Database.java:312:	Local variable 'password' could be declared final
+src/severlet/Database.java:313:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:319:	Avoid variables with short names like e
+src/severlet/Database.java:319:	Local variable 'e' could be declared final
+src/severlet/Database.java:320:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:323:	Parameter 'className' is not assigned and could be declared final
+src/severlet/Database.java:323:	publicMethodCommentRequirement Required
+src/severlet/Database.java:325:	Found 'DD'-anomaly for variable 'student' (lines '325'-'347').
+src/severlet/Database.java:325:	Found 'DU'-anomaly for variable 'student' (lines '325'-'355').
+src/severlet/Database.java:329:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:329:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:331:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:333:	Avoid variables with short names like ps
+src/severlet/Database.java:336:	Avoid variables with short names like rs
+src/severlet/Database.java:336:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:336:	Local variable 'rs' could be declared final
+src/severlet/Database.java:339:	Local variable 'studentName' could be declared final
+src/severlet/Database.java:340:	Local variable 'studentID' could be declared final
+src/severlet/Database.java:341:	Local variable 'sex' could be declared final
+src/severlet/Database.java:342:	Local variable 'birth' could be declared final
+src/severlet/Database.java:343:	Local variable 'nation' could be declared final
+src/severlet/Database.java:344:	Local variable 'entrance' could be declared final
+src/severlet/Database.java:345:	Local variable 'specialty' could be declared final
+src/severlet/Database.java:346:	Local variable 'password' could be declared final
+src/severlet/Database.java:347:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:353:	Avoid variables with short names like e
+src/severlet/Database.java:353:	Local variable 'e' could be declared final
+src/severlet/Database.java:354:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:357:	Parameter 'className' is not assigned and could be declared final
+src/severlet/Database.java:357:	Parameter 'grade' is not assigned and could be declared final
+src/severlet/Database.java:357:	Parameter 'maxNum' is not assigned and could be declared final
+src/severlet/Database.java:357:	publicMethodCommentRequirement Required
+src/severlet/Database.java:361:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:361:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:363:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:365:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Database.java:365:	Avoid variables with short names like ps
+src/severlet/Database.java:365:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:366:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:367:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:368:	Avoid variables with short names like rs
+src/severlet/Database.java:368:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:368:	Local variable 'rs' could be declared final
+src/severlet/Database.java:368:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:369:	Avoid using if statements without curly braces
+src/severlet/Database.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:370:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:371:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:372:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:373:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:374:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:375:	Local variable 'count' could be declared final
+src/severlet/Database.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:376:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:378:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:379:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:380:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:380:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:382:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:385:	publicMethodCommentRequirement Required
+src/severlet/Database.java:387:	Found 'DD'-anomaly for variable 'class1' (lines '387'-'405').
+src/severlet/Database.java:387:	Found 'DU'-anomaly for variable 'class1' (lines '387'-'414').
+src/severlet/Database.java:391:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:391:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:393:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:395:	Avoid variables with short names like ps
+src/severlet/Database.java:397:	Avoid variables with short names like rs
+src/severlet/Database.java:397:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:397:	Local variable 'rs' could be declared final
+src/severlet/Database.java:400:	Local variable 'classID' could be declared final
+src/severlet/Database.java:401:	Local variable 'className' could be declared final
+src/severlet/Database.java:402:	Local variable 'maxNum' could be declared final
+src/severlet/Database.java:403:	Local variable 'sumNum' could be declared final
+src/severlet/Database.java:404:	Local variable 'grade' could be declared final
+src/severlet/Database.java:405:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:406:	Avoid variables with short names like ID
+src/severlet/Database.java:406:	Local variable 'ID' could be declared final
+src/severlet/Database.java:406:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/severlet/Database.java:412:	Avoid variables with short names like e
+src/severlet/Database.java:412:	Local variable 'e' could be declared final
+src/severlet/Database.java:413:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:416:	Parameter 'courseName' is not assigned and could be declared final
+src/severlet/Database.java:416:	Parameter 'credit' is not assigned and could be declared final
+src/severlet/Database.java:416:	publicMethodCommentRequirement Required
+src/severlet/Database.java:420:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:420:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:422:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:424:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Database.java:424:	Avoid variables with short names like ps
+src/severlet/Database.java:424:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:425:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:426:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:427:	Avoid variables with short names like rs
+src/severlet/Database.java:427:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:427:	Local variable 'rs' could be declared final
+src/severlet/Database.java:427:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:428:	Avoid using if statements without curly braces
+src/severlet/Database.java:428:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:429:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:430:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:431:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:432:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:433:	Local variable 'count' could be declared final
+src/severlet/Database.java:433:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:434:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:435:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:436:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:437:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:438:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:438:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:440:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:443:	Parameter 'courseName' is not assigned and could be declared final
+src/severlet/Database.java:443:	Parameter 'credit' is not assigned and could be declared final
+src/severlet/Database.java:443:	publicMethodCommentRequirement Required
+src/severlet/Database.java:447:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:447:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:449:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:451:	Avoid variables with short names like ps
+src/severlet/Database.java:452:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:453:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:454:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:455:	Local variable 'count' could be declared final
+src/severlet/Database.java:455:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:456:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:457:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:458:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:459:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:459:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:461:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:464:	Parameter 'courseName' is not assigned and could be declared final
+src/severlet/Database.java:464:	publicMethodCommentRequirement Required
+src/severlet/Database.java:468:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:468:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:470:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:472:	Avoid variables with short names like ps
+src/severlet/Database.java:472:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:473:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:474:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:475:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:476:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:477:	Local variable 'count' could be declared final
+src/severlet/Database.java:477:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:478:	Local variable 'count1' could be declared final
+src/severlet/Database.java:478:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:479:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:480:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:481:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:482:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:482:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:484:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:487:	publicMethodCommentRequirement Required
+src/severlet/Database.java:489:	Found 'DD'-anomaly for variable 'course1' (lines '489'-'505').
+src/severlet/Database.java:489:	Found 'DU'-anomaly for variable 'course1' (lines '489'-'514').
+src/severlet/Database.java:493:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:493:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:495:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:497:	Avoid variables with short names like ps
+src/severlet/Database.java:499:	Avoid variables with short names like rs
+src/severlet/Database.java:499:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:499:	Local variable 'rs' could be declared final
+src/severlet/Database.java:502:	Local variable 'courseID' could be declared final
+src/severlet/Database.java:503:	Local variable 'courseName' could be declared final
+src/severlet/Database.java:504:	Local variable 'credit' could be declared final
+src/severlet/Database.java:505:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:506:	Avoid variables with short names like ID
+src/severlet/Database.java:506:	Local variable 'ID' could be declared final
+src/severlet/Database.java:506:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/severlet/Database.java:512:	Avoid variables with short names like e
+src/severlet/Database.java:512:	Local variable 'e' could be declared final
+src/severlet/Database.java:513:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:516:	Parameter 'courseName' is not assigned and could be declared final
+src/severlet/Database.java:516:	Parameter 'score' is not assigned and could be declared final
+src/severlet/Database.java:516:	Parameter 'semester' is not assigned and could be declared final
+src/severlet/Database.java:516:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:516:	Parameter 'year' is not assigned and could be declared final
+src/severlet/Database.java:516:	publicMethodCommentRequirement Required
+src/severlet/Database.java:520:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:520:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:522:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:524:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Database.java:524:	Avoid variables with short names like ps
+src/severlet/Database.java:524:	Use one line for each declaration, it enhances code readability.
+src/severlet/Database.java:525:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:526:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:527:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:528:	Avoid variables with short names like rs
+src/severlet/Database.java:528:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:528:	Local variable 'rs' could be declared final
+src/severlet/Database.java:528:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:529:	Avoid using if statements without curly braces
+src/severlet/Database.java:529:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:530:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:531:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:532:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:533:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:534:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:535:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:536:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:537:	Local variable 'count' could be declared final
+src/severlet/Database.java:537:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:538:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:539:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:540:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:541:	Avoid unnecessary if..then..else statements when returning booleans
+src/severlet/Database.java:542:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Database.java:542:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:544:	Avoid using if...else statements without curly braces
+src/severlet/Database.java:547:	publicMethodCommentRequirement Required
+src/severlet/Database.java:549:	Found 'DD'-anomaly for variable 'score1' (lines '549'-'568').
+src/severlet/Database.java:549:	Found 'DU'-anomaly for variable 'score1' (lines '549'-'578').
+src/severlet/Database.java:553:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:553:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:555:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:557:	Avoid variables with short names like ps
+src/severlet/Database.java:559:	Avoid variables with short names like rs
+src/severlet/Database.java:559:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:559:	Local variable 'rs' could be declared final
+src/severlet/Database.java:561:	Found 'DU'-anomaly for variable 'index' (lines '561'-'578').
+src/severlet/Database.java:563:	Local variable 'studentID' could be declared final
+src/severlet/Database.java:564:	Local variable 'courseName' could be declared final
+src/severlet/Database.java:565:	Local variable 'score' could be declared final
+src/severlet/Database.java:566:	Local variable 'semester' could be declared final
+src/severlet/Database.java:567:	Local variable 'year' could be declared final
+src/severlet/Database.java:568:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:569:	Avoid variables with short names like ID
+src/severlet/Database.java:569:	Local variable 'ID' could be declared final
+src/severlet/Database.java:569:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/severlet/Database.java:571:	Found 'DU'-anomaly for variable 'index' (lines '571'-'578').
+src/severlet/Database.java:576:	Avoid variables with short names like e
+src/severlet/Database.java:576:	Local variable 'e' could be declared final
+src/severlet/Database.java:577:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:580:	Parameter 'studentID' is not assigned and could be declared final
+src/severlet/Database.java:580:	publicMethodCommentRequirement Required
+src/severlet/Database.java:582:	Found 'DD'-anomaly for variable 'score1' (lines '582'-'601').
+src/severlet/Database.java:582:	Found 'DU'-anomaly for variable 'score1' (lines '582'-'612').
+src/severlet/Database.java:586:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:586:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:588:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:590:	Avoid variables with short names like ps
+src/severlet/Database.java:593:	Avoid variables with short names like rs
+src/severlet/Database.java:593:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:593:	Local variable 'rs' could be declared final
+src/severlet/Database.java:595:	Found 'DU'-anomaly for variable 'index' (lines '595'-'612').
+src/severlet/Database.java:597:	Local variable 'courseName' could be declared final
+src/severlet/Database.java:598:	Local variable 'score' could be declared final
+src/severlet/Database.java:599:	Local variable 'semester' could be declared final
+src/severlet/Database.java:600:	Local variable 'year' could be declared final
+src/severlet/Database.java:601:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:602:	Avoid variables with short names like ID
+src/severlet/Database.java:602:	Local variable 'ID' could be declared final
+src/severlet/Database.java:602:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/severlet/Database.java:604:	Found 'DU'-anomaly for variable 'index' (lines '604'-'612').
+src/severlet/Database.java:610:	Avoid variables with short names like e
+src/severlet/Database.java:610:	Local variable 'e' could be declared final
+src/severlet/Database.java:611:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/Database.java:614:	Parameter 'courseName' is not assigned and could be declared final
+src/severlet/Database.java:614:	publicMethodCommentRequirement Required
+src/severlet/Database.java:616:	Found 'DD'-anomaly for variable 'score1' (lines '616'-'635').
+src/severlet/Database.java:616:	Found 'DU'-anomaly for variable 'score1' (lines '616'-'646').
+src/severlet/Database.java:620:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Database.java:620:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Database.java:622:	Ensure that resources like this Connection object are closed after use
+src/severlet/Database.java:624:	Avoid variables with short names like ps
+src/severlet/Database.java:627:	Avoid variables with short names like rs
+src/severlet/Database.java:627:	Ensure that resources like this ResultSet object are closed after use
+src/severlet/Database.java:627:	Local variable 'rs' could be declared final
+src/severlet/Database.java:629:	Found 'DU'-anomaly for variable 'index' (lines '629'-'646').
+src/severlet/Database.java:631:	Local variable 'studentID' could be declared final
+src/severlet/Database.java:632:	Local variable 'score' could be declared final
+src/severlet/Database.java:633:	Local variable 'semester' could be declared final
+src/severlet/Database.java:634:	Local variable 'year' could be declared final
+src/severlet/Database.java:635:	Avoid instantiating new objects inside loops
+src/severlet/Database.java:636:	Avoid variables with short names like ID
+src/severlet/Database.java:636:	Local variable 'ID' could be declared final
+src/severlet/Database.java:636:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/severlet/Database.java:638:	Found 'DU'-anomaly for variable 'index' (lines '638'-'646').
+src/severlet/Database.java:644:	Avoid variables with short names like e
+src/severlet/Database.java:644:	Local variable 'e' could be declared final
+src/severlet/Database.java:645:	Consider simply returning the value vs storing it in local variable 'e'
+src/severlet/DeleteCourse.java:19:	fieldCommentRequirement Required
+src/severlet/DeleteCourse.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/DeleteCourse.java:29:	Comment is too large: Line too long
+src/severlet/DeleteCourse.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/DeleteCourse.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/DeleteCourse.java:35:	Local variable 'courseName' could be declared final
+src/severlet/DeleteCourse.java:36:	Local variable 'out' could be declared final
+src/severlet/DeleteCourse.java:39:	Local variable 'flag' could be declared final
+src/severlet/DeleteCourse.java:51:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/DeleteCourse.java:56:	Comment is too large: Line too long
+src/severlet/DeleteCourse.java:58:	Parameter 'request' is not assigned and could be declared final
+src/severlet/DeleteCourse.java:58:	Parameter 'response' is not assigned and could be declared final
+src/severlet/DeleteStudent.java:19:	fieldCommentRequirement Required
+src/severlet/DeleteStudent.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/DeleteStudent.java:29:	Comment is too large: Line too long
+src/severlet/DeleteStudent.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/DeleteStudent.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/DeleteStudent.java:35:	Local variable 'studentID' could be declared final
+src/severlet/DeleteStudent.java:36:	Local variable 'out' could be declared final
+src/severlet/DeleteStudent.java:39:	Local variable 'flag' could be declared final
+src/severlet/DeleteStudent.java:51:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/DeleteStudent.java:56:	Comment is too large: Line too long
+src/severlet/DeleteStudent.java:58:	Parameter 'request' is not assigned and could be declared final
+src/severlet/DeleteStudent.java:58:	Parameter 'response' is not assigned and could be declared final
+src/severlet/Login.java:21:	fieldCommentRequirement Required
+src/severlet/Login.java:25:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/Login.java:31:	Comment is too large: Line too long
+src/severlet/Login.java:33:	Parameter 'request' is not assigned and could be declared final
+src/severlet/Login.java:33:	Parameter 'response' is not assigned and could be declared final
+src/severlet/Login.java:36:	Local variable 'name' could be declared final
+src/severlet/Login.java:37:	Local variable 'password' could be declared final
+src/severlet/Login.java:38:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Login.java:38:	Found 'DU'-anomaly for variable 'out' (lines '38'-'72').
+src/severlet/Login.java:38:	Local variable 'out' could be declared final
+src/severlet/Login.java:39:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/severlet/Login.java:39:	Found 'DD'-anomaly for variable 'user' (lines '39'-'54').
+src/severlet/Login.java:39:	Found 'DU'-anomaly for variable 'user' (lines '39'-'72').
+src/severlet/Login.java:40:	Found 'DD'-anomaly for variable 'student' (lines '40'-'43').
+src/severlet/Login.java:46:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Login.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/severlet/Login.java:51:	A method should have only one exit point, and that should be the last statement in the method
+src/severlet/Login.java:57:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Login.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:60:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Login.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/severlet/Login.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/severlet/Login.java:75:	Comment is too large: Line too long
+src/severlet/Login.java:77:	Parameter 'request' is not assigned and could be declared final
+src/severlet/Login.java:77:	Parameter 'response' is not assigned and could be declared final
+src/severlet/Repw.java:19:	Avoid short class names like Repw
+src/severlet/Repw.java:21:	fieldCommentRequirement Required
+src/severlet/Repw.java:26:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/Repw.java:32:	Comment is too large: Line too long
+src/severlet/Repw.java:35:	Parameter 'request' is not assigned and could be declared final
+src/severlet/Repw.java:35:	Parameter 'response' is not assigned and could be declared final
+src/severlet/Repw.java:38:	Local variable 'user' could be declared final
+src/severlet/Repw.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/severlet/Repw.java:39:	Local variable 'name' could be declared final
+src/severlet/Repw.java:40:	Local variable 'oldpassword' could be declared final
+src/severlet/Repw.java:41:	Local variable 'accountPassword' could be declared final
+src/severlet/Repw.java:42:	Local variable 'out' could be declared final
+src/severlet/Repw.java:45:	Local variable 'flag' could be declared final
+src/severlet/Repw.java:60:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/Repw.java:65:	Comment is too large: Line too long
+src/severlet/Repw.java:67:	Parameter 'request' is not assigned and could be declared final
+src/severlet/Repw.java:67:	Parameter 'response' is not assigned and could be declared final
+src/severlet/StudentRePw.java:21:	fieldCommentRequirement Required
+src/severlet/StudentRePw.java:25:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/StudentRePw.java:31:	Comment is too large: Line too long
+src/severlet/StudentRePw.java:33:	Parameter 'request' is not assigned and could be declared final
+src/severlet/StudentRePw.java:33:	Parameter 'response' is not assigned and could be declared final
+src/severlet/StudentRePw.java:36:	Local variable 'student' could be declared final
+src/severlet/StudentRePw.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/severlet/StudentRePw.java:37:	Local variable 'name' could be declared final
+src/severlet/StudentRePw.java:38:	Local variable 'oldpassword' could be declared final
+src/severlet/StudentRePw.java:39:	Local variable 'accountPassword' could be declared final
+src/severlet/StudentRePw.java:40:	Local variable 'out' could be declared final
+src/severlet/StudentRePw.java:43:	Local variable 'flag' could be declared final
+src/severlet/StudentRePw.java:58:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/StudentRePw.java:63:	Comment is too large: Line too long
+src/severlet/StudentRePw.java:65:	Parameter 'request' is not assigned and could be declared final
+src/severlet/StudentRePw.java:65:	Parameter 'response' is not assigned and could be declared final
+src/severlet/UpdateCourse.java:19:	fieldCommentRequirement Required
+src/severlet/UpdateCourse.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/UpdateCourse.java:29:	Comment is too large: Line too long
+src/severlet/UpdateCourse.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/UpdateCourse.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/UpdateCourse.java:35:	Local variable 'courseName' could be declared final
+src/severlet/UpdateCourse.java:36:	Local variable 'credit1' could be declared final
+src/severlet/UpdateCourse.java:37:	Local variable 'credit' could be declared final
+src/severlet/UpdateCourse.java:38:	Local variable 'out' could be declared final
+src/severlet/UpdateCourse.java:41:	Local variable 'flag' could be declared final
+src/severlet/UpdateCourse.java:53:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/UpdateCourse.java:58:	Comment is too large: Line too long
+src/severlet/UpdateCourse.java:60:	Parameter 'request' is not assigned and could be declared final
+src/severlet/UpdateCourse.java:60:	Parameter 'response' is not assigned and could be declared final
+src/severlet/UpdateStudent.java:19:	fieldCommentRequirement Required
+src/severlet/UpdateStudent.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/severlet/UpdateStudent.java:29:	Comment is too large: Line too long
+src/severlet/UpdateStudent.java:31:	Parameter 'request' is not assigned and could be declared final
+src/severlet/UpdateStudent.java:31:	Parameter 'response' is not assigned and could be declared final
+src/severlet/UpdateStudent.java:35:	Local variable 'studentID' could be declared final
+src/severlet/UpdateStudent.java:36:	Local variable 'studentName' could be declared final
+src/severlet/UpdateStudent.java:37:	Local variable 'xing' could be declared final
+src/severlet/UpdateStudent.java:38:	Found 'DD'-anomaly for variable 'sex' (lines '38'-'40').
+src/severlet/UpdateStudent.java:39:	Avoid using if statements without curly braces
+src/severlet/UpdateStudent.java:39:	Position literals first in String comparisons
+src/severlet/UpdateStudent.java:41:	Local variable 'className' could be declared final
+src/severlet/UpdateStudent.java:42:	Local variable 'birth' could be declared final
+src/severlet/UpdateStudent.java:43:	Local variable 'nation' could be declared final
+src/severlet/UpdateStudent.java:44:	Local variable 'entrance' could be declared final
+src/severlet/UpdateStudent.java:45:	Local variable 'specialty' could be declared final
+src/severlet/UpdateStudent.java:46:	Local variable 'out' could be declared final
+src/severlet/UpdateStudent.java:49:	Local variable 'flag' could be declared final
+src/severlet/UpdateStudent.java:61:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/UpdateStudent.java:64:	Avoid printStackTrace(); use a logger call instead.
+src/severlet/UpdateStudent.java:69:	Comment is too large: Line too long
+src/severlet/UpdateStudent.java:71:	Parameter 'request' is not assigned and could be declared final
+src/severlet/UpdateStudent.java:71:	Parameter 'response' is not assigned and could be declared final

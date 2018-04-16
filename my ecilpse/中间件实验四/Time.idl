@@ -1,0 +1,12 @@
+module BAPkg
+{
+typedef struct _BAResult
+{
+ string time;
+}BAResult;
+interface BAInterface
+{
+void BACalculation(
+out BAResult result);
+};
+};

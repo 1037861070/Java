@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><班级 代号="软件1401">
+<学生 name="阮小二">
+  <各科成绩>
+    <Course>计算机基础</Course>
+    <Score>70</Score>
+    <Course>C语言</Course>
+    <Score>80</Score>
+    <Course>计算机网络</Course>
+    <Score>86</Score>
+    <Course>XML技术</Course>
+    <Score>96</Score>
+  </各科成绩>
+</学生>
+
+
+
+<学生 name="林冲">
+  <各科成绩>
+    <Course>计算机基础</Course>
+    <Score>75</Score>
+    <Course>C语言</Course>
+    <Score>83</Score>
+    <Course>计算机网络</Course>
+    <Score>86</Score>
+    <Course>XML技术</Course>
+    <Score>94</Score>
+  </各科成绩>
+</学生>
+
+<学生 name="鲁达">
+  <各科成绩>
+    <Course>计算机基础</Course>
+    <Score>72</Score>
+    <Course>C语言</Course>
+    <Score>87</Score>
+    <Course>计算机网络</Course>
+    <Score>86</Score>
+    <Course>XML技术</Course>
+    <Score>86</Score>
+  </各科成绩>
+</学生>
+<学生 name="李魁"><各科成绩><Course>计算机基础</Course><Score>100</Score><Course>C语言</Course><Score>100</Score><Course>计算机网络</Course><Score>100</Score><Course>XML技术</Course><Score>100</Score></各科成绩></学生><学生 name="王林"><各科成绩><Course>计算机基础</Course><Score>92</Score><Course>C语言</Course><Score>93</Score><Course>计算机网络</Course><Score>89</Score><Course>XML技术</Course><Score>87</Score></各科成绩></学生><学生 name="武松"><各科成绩><Course>计算机基础</Course><Score>78</Score><Course>C语言</Course><Score>86</Score><Course>计算机网络</Course><Score>84</Score><Course>XML技术</Course><Score>90</Score></各科成绩></学生></班级>

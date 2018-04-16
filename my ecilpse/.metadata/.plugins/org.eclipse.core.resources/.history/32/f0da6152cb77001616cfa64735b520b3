@@ -1,0 +1,75 @@
+package lifeGAME;
+
+import static org.junit.Assert.*;
+
+import javax.swing.Timer;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.After;
+import org.junit.Ignore;
+import org.junit.runner.RunWith;
+
+public class WorldMapTest {
+
+	WorldMap map = new WorldMap(); 
+	   private final char[][] world = {  
+	    		{ 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' }, 
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' }, 
+	            { 'N', 'N', 'N', 'A', 'A', 'N', 'N', 'N', 'N', 'N', 'A', 'A', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'A', 'A', 'N', 'N', 'N', 'A', 'A', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'A', 'N', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'N',  'A', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'A', 'A', 'A', 'N', 'A', 'A', 'N', 'A', 'A', 'N', 'A', 'A',  'A', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'A', 'A', 'A', 'N', 'N', 'N', 'A', 'A', 'A', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'A', 'A', 'A', 'N', 'N', 'N', 'A', 'A', 'A', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'A', 'A', 'A', 'N', 'A', 'A', 'N', 'A', 'A', 'N', 'A', 'A',  'A', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'A', 'N', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'A', 'N', 'N',  'A', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'A', 'A', 'N', 'N', 'N', 'A', 'A', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'A', 'A', 'N', 'N', 'N', 'N', 'N', 'A', 'A', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' }, 
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	            { 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N',  'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N' },  
+	  
+	    }; 
+	   private char[][] nextStatus = new char[world.length][world[0].length];  
+	   
+	    private char[][] tempStatus = new char[world.length][world[0].length];  
+	    private Timer timer;  
+	    
+	    // 动画帧之间的延时，每秒60帧  
+	    private final int DELAY_TIME = 1200; 
+	@Before
+	public void setUp() throws Exception {
+		map.clear();
+	}
+
+	@Test
+	public void testChangeCellStatus() {
+		map.startAnimation();
+		assertEquals(3,map.neighborsCount(3,3));
+	}
+
+
+	@Test
+	public void testStartAnimation() {
+		map.startAnimation();
+		assertEquals('N',world[2][2]);
+		assertEquals('A',world[3][3]);
+	}
+
+	@Test
+	public void testCopyWorldMap() {
+		//map.startAnimation();
+		assertEquals('N',tempStatus[3][3]);
+	}
+
+}
